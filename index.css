@@ -27,6 +27,7 @@ body {
     margin: 6px;
     color: aliceblue;
     text-shadow: 0 0 12px black;
+    font-size: 3rem;
 
 
 
@@ -35,7 +36,7 @@ body {
 /* Description of Website */
 .description {
     font-weight: 100;
-    font-size: 18px;
+    font-size: 1.7rem;
 
 }
 
@@ -44,7 +45,7 @@ body {
 
             /* Title of Thought Process */
 .title-thought {
-    font-size: 18px;
+    font-size: 1.5rem;
     text-decoration: underline;
     color: aliceblue;
     text-shadow: 0 0 12px black;
@@ -54,14 +55,14 @@ body {
 
             /* Thought Process Dialogue */
 .thought{
-    font-size: 14px;
+    font-size: 1.2rem;
     box-sizing: border-box;
     max-width: 700px;
 }
             /* Thought Process List */
 .thought-list{
     text-align: left;
-    font-size: 12px;
+    font-size: 1rem;
     box-sizing: border-box;
     max-width: 700px;
 }
