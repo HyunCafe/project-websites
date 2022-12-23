@@ -23,11 +23,10 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    border: 2px solid #1e5631;
-    padding: 4px;
+    padding: 24px;
     margin: 6px;
     color: aliceblue;
-    text-shadow: 0 0 8px black;
+    text-shadow: 0 0 12px black;
 
 
 
@@ -39,3 +38,32 @@ body {
     font-size: 18px;
 
 }
+
+
+/* Thought Process of Website */
+
+            /* Title of Thought Process */
+.title-thought {
+    font-size: 18px;
+    text-decoration: underline;
+    color: aliceblue;
+    text-shadow: 0 0 12px black;
+    box-sizing: border-box;
+    max-width: fit-content;
+}
+
+            /* Thought Process Dialogue */
+.thought{
+    font-size: 14px;
+    box-sizing: border-box;
+    max-width: 700px;
+}
+            /* Thought Process List */
+.thought-list{
+    text-align: left;
+    font-size: 12px;
+    box-sizing: border-box;
+    max-width: 700px;
+}
+
+
