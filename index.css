@@ -14,10 +14,10 @@
 body {
     background-color: #c6f0b3;
     font-family:  sans-serif, Georgia, serif;
-        color: aliceblue;
-        text-shadow: 0 0 1rem black;
-        font-size: 3rem;
-        font-weight:600;
+    color: aliceblue;
+    text-shadow: 0 0 1rem black;
+    font-size: 3rem;
+    font-weight:600;
 }
 
 /* Title of the Website */
