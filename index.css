@@ -13,16 +13,29 @@
 
 body {
     background-color: #c6f0b3;
+    font-family:  sans-serif, Georgia, serif;
 }
 
 /* Title of the Website */
 .title {
     text-align:center;
-    font-family: sans-serif; 
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid #1e5631;
+    padding: 4px;
+    margin: 6px;
+    color: aliceblue;
+    text-shadow: 0 0 8px black;
+
+
 
 }
 
 /* Description of Website */
 .description {
-    font-family:  sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+
 }
