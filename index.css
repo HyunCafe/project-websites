@@ -23,10 +23,10 @@ body {
     top: 0;
     left: 0;
     right: 0;
-    padding: 24px;
-    margin: 6px;
+    padding: 1.5rem;
+    margin: 1.5rem;
     color: aliceblue;
-    text-shadow: 0 0 12px black;
+    text-shadow: 0 0 1rem black;
     font-size: 3rem;
 
 
@@ -48,7 +48,7 @@ body {
     font-size: 1.5rem;
     text-decoration: underline;
     color: aliceblue;
-    text-shadow: 0 0 12px black;
+    text-shadow: 0 0 1rem black;
     box-sizing: border-box;
     max-width: fit-content;
 }
