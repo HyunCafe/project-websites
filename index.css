@@ -14,10 +14,14 @@
 body {
     background-color: #c6f0b3;
     font-family:  sans-serif, Georgia, serif;
+        color: aliceblue;
+        text-shadow: 0 0 1rem black;
+        font-size: 3rem;
+        font-weight:600;
 }
 
 /* Title of the Website */
-.title {
+.site-title {
     text-align:center;
     position: absolute;
     top: 0;
@@ -47,8 +51,6 @@ body {
 .title-thought {
     font-size: 1.5rem;
     text-decoration: underline;
-    color: aliceblue;
-    text-shadow: 0 0 1rem black;
     box-sizing: border-box;
     max-width: fit-content;
 }
