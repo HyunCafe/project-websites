@@ -8,7 +8,7 @@
     height:100%;
 
 }
-@import url('https://fonts.cdnfonts.com/css/itc-avant-garde-gothic-std-book');
+
 
 
 body {
@@ -18,6 +18,11 @@ body {
 /* Title of the Website */
 .title {
     text-align:center;
-    font-family: 'ITC Avant Garde Gothic Std'; 
+    font-family: sans-serif; 
 
+}
+
+/* Description of Website */
+.description {
+    font-family:  sans-serif;
 }
