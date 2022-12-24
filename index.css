@@ -93,6 +93,14 @@ body {
     border: 1px solid #fff;
     width: 900px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    }
+    
+    .pj1, .pj2, .pj3, .pj4, .pj5
+    {
+    border: 1px solid white;
+    margin: 1rem;
+    padding:1rem;
     }
 
