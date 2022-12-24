@@ -85,7 +85,7 @@ body {
     display: flex;
     justify-content: center;
     color: #fff;
-    background-color: #5995DA;  
+    background-color: #279b5b;  
     padding: 20px 0;
     }
     
@@ -94,9 +94,9 @@ body {
     width: 900px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     }
-    
+
     .pj1, .pj2, .pj3, .pj4, .pj5
     {
     border: 1px solid white;
