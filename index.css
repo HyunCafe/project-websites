@@ -13,11 +13,10 @@ body {
 }
 
    /* (Sec 1) Background Image */
-    .background-img {
+    .bg-stack {
         width:100%;
+        margin: 0;
 
-
- 
     }
 
     /* (Sec 1.1) Title of the Website */
@@ -36,6 +35,7 @@ body {
 
     /* (Sec 1.2) Description of Myself */
 .description {
+    display: ;
     font-weight: 100;
     font-size: 1.7rem;
     margin: 1em;
@@ -103,4 +103,5 @@ body {
     margin: 1rem;
     padding:1rem;
     }
+
 
