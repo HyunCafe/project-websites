@@ -14,8 +14,10 @@ body {
 
    /* (Sec 1) Background Image */
     .bg-stack {
+        display:flex;
+        flex-direction: column;
         width:100%;
-        margin: 0;
+
 
     }
 
