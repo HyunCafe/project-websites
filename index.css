@@ -17,8 +17,6 @@ body {
         display:flex;
         flex-direction: column;
         width:100%;
-
-
     }
 
     /* (Sec 1.1) Title of the Website */
@@ -35,8 +33,42 @@ body {
     font-size: 3rem;
 }
 
+/* (Sec 1.12) Group of Section 1.2 to 1.5) */
+
+.main-section {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* (Sec 1.21) Fullstack, Frontend, Backend Typewriter */
+.typed-strings {
+    position: relative;
+
+}
+
+.typed-strings::before, .typed-strings::after{
+    content: '';
+    position:absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    border-right: .15em whitesmoke;
+    white-space: nowrap;
+    animation:typewriter 1s steps(50,end);
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    letter-spacing: .2em;
+
+}
+
+@keyframes typewriter {
+    to{ left:100%}
+}
+
     /* (Sec 1.2) Description of Myself */
-.description {
+.description, .description2 {
     display: ;
     font-weight: 100;
     font-size: 1.7rem;
