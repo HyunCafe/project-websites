@@ -4,13 +4,16 @@
     display:flex;
     justify-content: flex-start;
     flex-direction: column;
+}
 
+* {
+    box-sizing: border-box;
 }
 
 /* Howls Castle Background Image and Background Color of Website and Font Style */
 
     /* Overall Body of Website */
-body {
+.body {
     font-family:  sans-serif, Georgia, serif;
     color:aliceblue;
     text-shadow: .1rem .1rem 1rem rgb(7, 80, 5);
@@ -88,7 +91,6 @@ body {
     position: relative;
     flex-direction: column;
     justify-content: flex-start;
-    box-sizing: content-box;
     max-width: 18em;
     margin: 10em 0 7em 1.5em;
     z-index: 2;
@@ -123,11 +125,11 @@ body {
 } */
 
     /* (Sec 1.2) Description of Myself */
-.description, .description2 {
+.description {
     font-weight: 100;
     font-size: 1.7rem;
     margin: 1em 0 3em 1.5em;
-    max-width: 40%;
+    max-width: 60%;
 }
 /* (Sec 1.21) Flex Container Descriptions */
 .description-container {
@@ -142,7 +144,6 @@ body {
 .title-thought {
     font-size: 1.5rem;
     text-decoration: underline;
-    box-sizing: border-box;
     margin: 1em;
     margin-left: 1.5em;
     
@@ -151,7 +152,6 @@ body {
     /* (Sec 1.4) Thought Process Dialogue */
 .thought{
     font-size: 1.3rem;
-    box-sizing: border-box;
     margin: 1em;
     margin-left: 1.5em;
     max-width: 40%;
@@ -160,7 +160,6 @@ body {
 .thought-list{
     text-align: left;
     font-size: 1.3rem;
-    box-sizing: border-box;
     margin: 1em;
     margin-left: 1.5em;
     
@@ -170,7 +169,6 @@ body {
     * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     z-index: 2;
     }
     
@@ -188,8 +186,7 @@ body {
     box-shadow: .3rem .3rem 0.3rem .5rem rgb(7, 80, 5);
     }
 
-    .pj1, .pj2, .pj3, .pj4, .pj5
-    {
+    .pj {
     box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
     margin: 1em 0 3em 1.5em;
     padding:1em;
