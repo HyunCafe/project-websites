@@ -58,8 +58,8 @@ body {
     position: relative;
     flex-direction: column;
     justify-content: flex-start;
-    box-sizing: border-box;
-    margin: 0;
+    box-sizing: content-box;
+    margin: 20rem 2rem;
     z-index: 2;
 }
 
@@ -141,7 +141,8 @@ body {
     display: flex;
     justify-content: center;
     color: #fff;
-    padding: 20px 0;
+    padding: 5rem 0;
+    margin: 30rem;
     }
     
     .projectmenu {
@@ -157,6 +158,7 @@ body {
     border: 1px solid rgb(42, 143, 92);
     margin: 1rem;
     padding:1rem;
+    font-size: 2rem;
     }
 
 
