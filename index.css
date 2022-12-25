@@ -1,7 +1,10 @@
 /* The whole website */
 
 .everything {
-    display:flex
+    display:flex;
+    
+    justify-content: flex-start;
+    flex-direction: column;
 
 }
 
@@ -11,18 +14,18 @@
 body {
     font-family:  sans-serif, Georgia, serif;
     color:aliceblue;
-    text-shadow: 0 0 1rem rgb(42, 143, 92);
+    text-shadow: 1rem 1rem 1rem rgb(177, 177, 177);
     font-size: 3rem;
-    background: linear-gradient(#fff, #f2f2f2);
+    background: linear-gradient(rgb(255, 255, 255), #f2f2f2);
     -webkit-background-clip: text;
-    -webkit-text-fill-color:rgb(42, 143, 92);
+    -webkit-text-fill-color:rgb(171, 171, 171);
     
 }
 
    /* (Sec 1) Background Image */
     .bg-stack {
         display:flex;
-        position: relative;
+        position: absolute;
         flex-direction: column;
         width:100%;
         z-index: 0;
@@ -38,12 +41,13 @@ body {
     padding: 1.5rem;
     margin: 1.5rem;
     color:aliceblue;
-    text-shadow: 0 0 1rem rgb(42, 143, 92);
+    text-shadow: 1rem 1rem 1rem rgb(177, 177, 177);
     font-size: 3rem;
     background: linear-gradient(#fff, #f2f2f2);
     -webkit-background-clip: text;
-    -webkit-text-fill-color:rgb(42, 143, 92);
+    -webkit-text-fill-color:rgb(171, 171, 171);
     font-size: 3rem;
+    letter-spacing: .1rem;
     z-index: 2;
 }
 
@@ -130,6 +134,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    z-index: 2;
     }
     
     .project-container {
