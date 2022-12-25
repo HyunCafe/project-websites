@@ -66,16 +66,16 @@ body {
                     /* (Sec 1.13) Image Behind Main Text  */
                     .gif-2 {
                         position: absolute;
-                        top: 1em;
-                        right: 3em;
+                        top: 16em;
+                        left: 14em;
                         z-index: 1;
                         }    
 
                     /* (Sec 1.14) Image Behind Main Text  */
                     .gif-3 {
                         position: absolute;
-                        top: 1em;
-                        right: 3em;
+                        top: 46em;
+                        left: 3em;
                         z-index: 1;
                         }
 
