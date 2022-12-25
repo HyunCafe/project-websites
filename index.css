@@ -2,7 +2,6 @@
 
 .everything {
     display:flex;
-    
     justify-content: flex-start;
     flex-direction: column;
 
@@ -41,13 +40,12 @@ body {
     padding: 1.5rem;
     margin: 1.5rem;
     color:aliceblue;
-    text-shadow: 1rem 1rem 1rem rgb(177, 177, 177);
     font-size: 3rem;
     background: linear-gradient(#fff, #f2f2f2);
     -webkit-background-clip: text;
     -webkit-text-fill-color:rgb(171, 171, 171);
     font-size: 3rem;
-    letter-spacing: .1rem;
+    letter-spacing: .05rem;
     z-index: 2;
 }
 
