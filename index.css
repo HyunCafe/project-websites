@@ -63,7 +63,7 @@ body {
                         z-index: 1;
                         }
 
-                    /* (Sec 1.13) Image Behind Main Text  */
+                    /* (Sec 1.13) Image Right of Description Main Text  */
                     .gif-2 {
                         position: absolute;
                         top: 16em;
@@ -71,7 +71,7 @@ body {
                         z-index: 1;
                         }    
 
-                    /* (Sec 1.14) Image Behind Main Text  */
+                    /* (Sec 1.14) Image Left of Projects  */
                     .gif-3 {
                         position: absolute;
                         top: 46em;
