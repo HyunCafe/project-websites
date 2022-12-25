@@ -17,7 +17,7 @@ body {
     font-size: 3rem;
     background: linear-gradient(rgb(255, 255, 255), #f2f2f2);
     -webkit-background-clip: text;
-    -webkit-text-fill-color:rgb(171, 171, 171);
+    -webkit-text-fill-color:rgb(180, 180, 180);
     
 }
 
@@ -26,26 +26,29 @@ body {
         display:flex;
         position: absolute;
         flex-direction: column;
+        
         width:100%;
         z-index: 0;
     }
+    .bg-2 {
+        width:100%;
+        min-height: 100vh;
+    }
 
     /* (Sec 1.1) Title of the Website */
+.site-header{
+    display: flex;
+    justify-content: center;
+}
 .site-title {
-    text-align:center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    padding: 1.5rem;
-    margin: 1.5rem;
+    padding: .5em;
+    margin: 1.7em;
     color:aliceblue;
     font-size: 3rem;
     background: linear-gradient(#fff, #f2f2f2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:rgb(171, 171, 171);
-    font-size: 3rem;
     letter-spacing: .05rem;
+    box-shadow: .3rem .3rem 0.3rem .2rem rgb(177, 177, 177);
+    max-width: fit-content;
     z-index: 2;
 }
 
@@ -57,7 +60,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     box-sizing: content-box;
-    margin: 20rem 2rem;
+    margin: 1em 0 3em 1.5em;
     z-index: 2;
 }
 
@@ -90,7 +93,7 @@ body {
 .description, .description2 {
     font-weight: 100;
     font-size: 1.7rem;
-    margin: 1em;
+    margin: 1em 0 3em 1.5em;
     max-width: 40%;
 }
 /* (Sec 1.21) Flex Container Descriptions */
@@ -108,22 +111,25 @@ body {
     text-decoration: underline;
     box-sizing: border-box;
     margin: 1em;
+    margin-left: 1.5em;
     
 }
 
     /* (Sec 1.4) Thought Process Dialogue */
 .thought{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     box-sizing: border-box;
     margin: 1em;
+    margin-left: 1.5em;
     max-width: 40%;
 }
     /* *Sec 1.5) Thought Process List */
 .thought-list{
     text-align: left;
-    font-size: 1rem;
+    font-size: 1.3rem;
     box-sizing: border-box;
     margin: 1em;
+    margin-left: 1.5em;
     
 }
 
@@ -144,19 +150,20 @@ body {
     }
     
     .projectmenu {
-    border: 1px solid rgb(42, 143, 92);
     width: 900px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    box-shadow: .3rem .3rem 0.3rem .2rem rgb(177, 177, 177);
     }
 
     .pj1, .pj2, .pj3, .pj4, .pj5
     {
-    border: 1px solid rgb(42, 143, 92);
-    margin: 1rem;
-    padding:1rem;
+    box-shadow: .3rem .3rem 1rem .5rem rgb(177, 177, 177);
+    margin: 1em;
+    padding:1em;
     font-size: 2rem;
+
     }
 
 
