@@ -13,11 +13,10 @@
 body {
     font-family:  sans-serif, Georgia, serif;
     color:aliceblue;
-    text-shadow: 1rem 1rem 1rem rgb(177, 177, 177);
+    text-shadow: 1rem 1rem 1rem rgb(7, 80, 5);
     font-size: 3rem;
-    background: linear-gradient(rgb(255, 255, 255), #f2f2f2);
     -webkit-background-clip: text;
-    -webkit-text-fill-color:rgb(180, 180, 180);
+    -webkit-text-fill-color:#ffffff;
     
 }
 
@@ -26,14 +25,10 @@ body {
         display:flex;
         position: absolute;
         flex-direction: column;
-        
         width:100%;
         z-index: 0;
     }
-    .bg-2 {
-        width:100%;
-        min-height: 100vh;
-    }
+
 
     /* (Sec 1.1) Title of the Website */
 .site-header{
@@ -43,14 +38,19 @@ body {
 .site-title {
     padding: .5em;
     margin: 1.7em;
-    color:aliceblue;
     font-size: 3rem;
-    background: linear-gradient(#fff, #f2f2f2);
+    text-shadow:none;
     letter-spacing: .05rem;
-    box-shadow: .3rem .3rem 0.3rem .2rem rgb(177, 177, 177);
+    box-shadow: .3rem .3rem 0.3rem .2rem rgb(7, 80, 5);
     max-width: fit-content;
     z-index: 2;
+    
 }
+ /* PNG and GIF Image Files */
+ .png-stack{
+    background-image: url(images/plantbg6.jpg);
+    background-blend-mode:overlay;
+ }
 
 /* (Sec 1.12) Group of Section 1.2 to 1.5) */
 
@@ -60,8 +60,14 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     box-sizing: content-box;
+    max-width: 18em;
     margin: 1em 0 3em 1.5em;
     z-index: 2;
+    box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
+    padding:1em;
+    
+
+
 }
 
 /* (Sec 1.21) Fullstack, Frontend, Backend Typewriter
@@ -145,8 +151,6 @@ body {
     display: flex;
     justify-content: center;
     color: #fff;
-    padding: 5rem 0;
-    margin: 30rem;
     }
     
     .projectmenu {
@@ -154,13 +158,13 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    box-shadow: .3rem .3rem 0.3rem .2rem rgb(177, 177, 177);
+    box-shadow: .3rem .3rem 0.3rem .5rem rgb(7, 80, 5);
     }
 
     .pj1, .pj2, .pj3, .pj4, .pj5
     {
-    box-shadow: .3rem .3rem 1rem .5rem rgb(177, 177, 177);
-    margin: 1em;
+    box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
+    margin: 1em 0 3em 1.5em;
     padding:1em;
     font-size: 2rem;
 
