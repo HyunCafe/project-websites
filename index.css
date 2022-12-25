@@ -198,8 +198,10 @@ body {
 
 
 
-    /* (Sec 4) Footer Information      Need to Fix Bug where Footer Text is not showing */
+    /* (Sec 4) Footer Information */
     .footer-info {
+        margin-top: 1em;
         position: relative;
+        text-align: center;
         z-index:3;
     }
