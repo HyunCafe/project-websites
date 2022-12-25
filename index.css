@@ -1,22 +1,31 @@
+/* The whole website */
+
+.everything {
+    display:flex
+
+}
 
 /* Howls Castle Background Image and Background Color of Website and Font Style */
 
     /* Overall Body of Website */
 body {
-    background-color: #c6f0b3;
     font-family:  sans-serif, Georgia, serif;
-    color: aliceblue;
-    text-shadow: 0 0 1rem black;
+    color:aliceblue;
+    text-shadow: 0 0 1rem rgb(42, 143, 92);
     font-size: 3rem;
-    font-weight:600;
+    background: linear-gradient(#fff, #f2f2f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:rgb(42, 143, 92);
     
 }
 
    /* (Sec 1) Background Image */
     .bg-stack {
         display:flex;
+        position: relative;
         flex-direction: column;
         width:100%;
+        z-index: 0;
     }
 
     /* (Sec 1.1) Title of the Website */
@@ -28,23 +37,31 @@ body {
     right: 0;
     padding: 1.5rem;
     margin: 1.5rem;
-    color: aliceblue;
-    text-shadow: 0 0 1rem black;
+    color:aliceblue;
+    text-shadow: 0 0 1rem rgb(42, 143, 92);
     font-size: 3rem;
+    background: linear-gradient(#fff, #f2f2f2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:rgb(42, 143, 92);
+    font-size: 3rem;
+    z-index: 2;
 }
 
 /* (Sec 1.12) Group of Section 1.2 to 1.5) */
 
 .main-section {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
     box-sizing: border-box;
     margin: 0;
+    z-index: 2;
 }
 
-/* (Sec 1.21) Fullstack, Frontend, Backend Typewriter */
+/* (Sec 1.21) Fullstack, Frontend, Backend Typewriter
 .typed-strings {
     position: relative;
-
-}
 
 .typed-strings::before, .typed-strings::after{
     content: '';
@@ -65,14 +82,14 @@ body {
 
 @keyframes typewriter {
     to{ left:100%}
-}
+} */
 
     /* (Sec 1.2) Description of Myself */
 .description, .description2 {
-    display: ;
     font-weight: 100;
     font-size: 1.7rem;
     margin: 1em;
+    max-width: 40%;
 }
 /* (Sec 1.21) Flex Container Descriptions */
 .description-container {
@@ -88,24 +105,24 @@ body {
     font-size: 1.5rem;
     text-decoration: underline;
     box-sizing: border-box;
-    max-width: fit-content;
     margin: 1em;
+    
 }
 
     /* (Sec 1.4) Thought Process Dialogue */
 .thought{
     font-size: 1.2rem;
     box-sizing: border-box;
-    max-width: 700px;
     margin: 1em;
+    max-width: 40%;
 }
     /* *Sec 1.5) Thought Process List */
 .thought-list{
     text-align: left;
     font-size: 1rem;
     box-sizing: border-box;
-    max-width: 700px;
     margin: 1em;
+    
 }
 
     /* (Sec 3) Flexbox Container Projects*/
@@ -119,12 +136,11 @@ body {
     display: flex;
     justify-content: center;
     color: #fff;
-    background-color: #279b5b;  
     padding: 20px 0;
     }
     
     .projectmenu {
-    border: 1px solid #fff;
+    border: 1px solid rgb(42, 143, 92);
     width: 900px;
     display: flex;
     flex-wrap: wrap;
@@ -133,7 +149,7 @@ body {
 
     .pj1, .pj2, .pj3, .pj4, .pj5
     {
-    border: 1px solid white;
+    border: 1px solid rgb(42, 143, 92);
     margin: 1rem;
     padding:1rem;
     }
