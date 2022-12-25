@@ -44,16 +44,30 @@ body {
     box-shadow: .3rem .3rem 0.3rem .2rem #84AD25;
     max-width: fit-content;
     z-index: 2;
-    
 }
- /* PNG and GIF Image Files */
- .png-stack{
-    display: flex;
-    flex-basis: auto;
-    justify-content: center;
-    background-image: url(images/plantbg6.jpg);
-    background-blend-mode:overlay;
- }
+
+
+                    /* Sec 1.11) PNG and GIF Image Files */
+                    .png-stack{
+                    display: flex;
+                    flex-basis: auto;
+                    justify-content: center;
+                    background-image: url(images/plantbg6.jpg);
+                    background-blend-mode:overlay;
+                    }
+
+
+                    /* (Sec 1.12) Image Behind Main Text  */
+                    .png-1 {
+                        position: absolute;
+                        top: 20em;
+                        right: 3em;
+                        width:30%;
+                        z-index: 1;
+                        }
+
+
+    
 
 /* (Sec 1.12) Group of Section 1.2 to 1.5) */
 
