@@ -13,7 +13,7 @@
 body {
     font-family:  sans-serif, Georgia, serif;
     color:aliceblue;
-    text-shadow: 1rem 1rem 1rem rgb(7, 80, 5);
+    text-shadow: .1rem .1rem 1rem rgb(7, 80, 5);
     font-size: 3rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color:#ffffff;
@@ -41,13 +41,16 @@ body {
     font-size: 3rem;
     text-shadow:none;
     letter-spacing: .05rem;
-    box-shadow: .3rem .3rem 0.3rem .2rem rgb(7, 80, 5);
+    box-shadow: .3rem .3rem 0.3rem .2rem #84AD25;
     max-width: fit-content;
     z-index: 2;
     
 }
  /* PNG and GIF Image Files */
  .png-stack{
+    display: flex;
+    flex-basis: auto;
+    justify-content: center;
     background-image: url(images/plantbg6.jpg);
     background-blend-mode:overlay;
  }
@@ -65,8 +68,7 @@ body {
     z-index: 2;
     box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
     padding:1em;
-    
-
+    -webkit-text-fill-color: rgb(7, 80, 5);
 
 }
 
@@ -167,7 +169,6 @@ body {
     margin: 1em 0 3em 1.5em;
     padding:1em;
     font-size: 2rem;
-
     }
 
 
