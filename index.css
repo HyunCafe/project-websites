@@ -197,3 +197,9 @@ body {
     }
 
 
+
+    /* (Sec 4) Footer Information      Need to Fix Bug where Footer Text is not showing */
+    .footer-info {
+        position: relative;
+        z-index:3;
+    }
