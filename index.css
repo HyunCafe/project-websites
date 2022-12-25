@@ -46,28 +46,40 @@ body {
     z-index: 2;
 }
 
-
-                    /* Sec 1.11) PNG and GIF Image Files */
-                    .png-stack{
-                    display: flex;
-                    flex-basis: auto;
-                    justify-content: center;
-                    background-image: url(images/plantbg6.jpg);
-                    background-blend-mode:overlay;
-                    }
-
-
-                    /* (Sec 1.12) Image Behind Main Text  */
+                    /* (Sec 1.11) Image Behind Main Text  */
                     .png-1 {
                         position: absolute;
-                        top: 20em;
+                        top: 18.5em;
                         right: 3em;
                         width:30%;
                         z-index: 1;
                         }
 
+                    /* (Sec 1.12) Flamey Gif */
+                    .gif-1 {
+                        position: absolute;
+                        top: 1em;
+                        right: 3em;
+                        z-index: 1;
+                        }
 
-    
+                    /* (Sec 1.13) Image Behind Main Text  */
+                    .gif-2 {
+                        position: absolute;
+                        top: 1em;
+                        right: 3em;
+                        z-index: 1;
+                        }    
+
+                    /* (Sec 1.14) Image Behind Main Text  */
+                    .gif-3 {
+                        position: absolute;
+                        top: 1em;
+                        right: 3em;
+                        z-index: 1;
+                        }
+
+
 
 /* (Sec 1.12) Group of Section 1.2 to 1.5) */
 
@@ -78,12 +90,11 @@ body {
     justify-content: flex-start;
     box-sizing: content-box;
     max-width: 18em;
-    margin: 1em 0 3em 1.5em;
+    margin: 10em 0 7em 1.5em;
     z-index: 2;
     box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
     padding:1em;
     -webkit-text-fill-color: rgb(7, 80, 5);
-
 }
 
 /* (Sec 1.21) Fullstack, Frontend, Backend Typewriter
