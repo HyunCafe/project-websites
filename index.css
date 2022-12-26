@@ -2,6 +2,8 @@
 
 .everything {
     display:flex;
+    flex-wrap: wrap;
+    flex:auto;
     justify-content: flex-start;
     flex-direction: column;
 }
@@ -48,38 +50,33 @@
     max-width: fit-content;
     z-index: 2;
 }
-
+                .gifs img{
+                    z-index: 1;
+                    position: absolute;
+                }
                     /* (Sec 1.11) Image Behind Main Text  */
                     .png-1 {
-                        position: absolute;
                         top: 18.5em;
                         right: 3em;
                         width:30%;
-                        z-index: 1;
                         }
 
                     /* (Sec 1.12) Flamey Gif */
-                    .gif-1 {
-                        position: absolute;
+                    .gif-1 {                     
                         top: 1em;
                         right: 3em;
-                        z-index: 1;
                         }
 
                     /* (Sec 1.13) Image Right of Description Main Text  */
                     .gif-2 {
-                        position: absolute;
                         top: 16em;
                         left: 14em;
-                        z-index: 1;
                         }    
 
                     /* (Sec 1.14) Image Left of Projects  */
                     .gif-3 {
-                        position: absolute;
                         top: 46em;
                         left: 3em;
-                        z-index: 1;
                         }
 
 
