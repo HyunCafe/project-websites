@@ -1,14 +1,14 @@
-* {
+    /* Global Settings */
+    * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     z-index: 2;
-}
-
-/* Howls Castle Background Image and Background Color of Website and Font Style */
+    }
+    /* Howls Castle Background Image and Background Color of Website and Font Style */
 
     /* Overall Body of Website */
-.body {
+    .body {
     display:flex;
     flex-wrap: wrap;
     flex:auto;
@@ -20,25 +20,25 @@
     font-size: 3rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color:#ffffff;
-}
+    }
 
-   /* (Sec 1) Background Image */
+    /* (Sec 1) Background Image */
     .bg-stack {
-        display:flex;
-        position: absolute;
-        flex-direction: column;
-        width:100%;
-        z-index: 0;
+    display:flex;
+    position: absolute;
+    flex-direction: column;
+    width:100%;
+    z-index: 0;
     }
 
 
     /* (Sec 1.1) Title of the Website */
-.site-header{
+    .site-header{
     display:flex;
     flex-wrap: wrap;
-}
+    }
 
-.site-title {
+    .site-title {
     padding: .5em;
     margin: 1.7em;
     font-size: 3rem;
@@ -49,42 +49,64 @@
     z-index: 2;
     -webkit-background-clip: text;
     -webkit-text-fill-color:#ffffff;
-}
+    }
 
-                .gifs img{
-                    z-index: 1;
-                    position: absolute;
-                }
-                    /* (Sec 1.11) Image Behind Main Text  */
-                    .png-1 {
-                        top: 18.5em;
-                        right: 3em;
-                        width:30%;
-                        }
+    .gifs img{
+    z-index: 1;
+    position: absolute;
+    }
+        /* (Sec 1.11) Image Behind Main Text  */     /* (Sec 1.1) Title of the Website */
+        .site-header{
+        display:flex;
+        flex-wrap: wrap;
+        }
 
-                    /* (Sec 1.12) Flamey Gif */
-                    .gif-1 {                     
-                        top: 1em;
-                        right: 3em;
-                        }
+        .site-title {
+        padding: .5em;
+        margin: 1.7em;
+        font-size: 3rem;
+        text-shadow:none;
+        letter-spacing: .05rem;
+        box-shadow: .3rem .3rem 0.3rem .2rem #84AD25;
+        max-width: fit-content;
+        z-index: 2;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:#ffffff;
+        }
 
-                    /* (Sec 1.13) Image Right of Description Main Text  */
-                    .gif-2 {
-                        top: 16em;
-                        left: 14em;
-                        }    
+        .gifs img{
+        z-index: 1;
+        position: absolute;
+        }
+        /* (Sec 1.11) Image Behind Main Text  */
+        .png-1 {
+        top: 18.5em;
+        right: 3em;
+        width:30%;
+        }
 
-                    /* (Sec 1.14) Image Left of Projects  */
-                    .gif-3 {
-                        top: 46em;
-                        left: 3em;
-                        }
+        /* (Sec 1.12) Flamey Gif */
+        .gif-1 {                     
+        top: 1em;
+        right: 3em;
+        }
+
+        /* (Sec 1.13) Image Right of Description Main Text  */
+        .gif-2 {
+        top: 16em;
+        left: 14em;
+        }    
+
+        /* (Sec 1.14) Image Left of Projects  */
+        .gif-3 {
+        top: 46em;
+        left: 3em;
+        }
 
 
+    /* (Sec 1.12) Group of Section 1.2 to 1.5) */
 
-/* (Sec 1.12) Group of Section 1.2 to 1.5) */
-
-.main-section {
+    .main-section {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -95,13 +117,13 @@
     box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
     padding:1em;
     -webkit-text-fill-color: rgb(7, 80, 5);
-}
+    }
 
-/* (Sec 1.21) Fullstack, Frontend, Backend Typewriter
-.typed-strings {
+    /* (Sec 1.21) Fullstack, Frontend, Backend Typewriter
+    .typed-strings {
     position: relative;
 
-.typed-strings::before, .typed-strings::after{
+    .typed-strings::before, .typed-strings::after{
     content: '';
     position:absolute;
     top: 0;
@@ -116,85 +138,83 @@
     animation-iteration-count: infinite;
     letter-spacing: .2em;
 
-}
+    }
 
-@keyframes typewriter {
+    @keyframes typewriter {
     to{ left:100%}
-} */
+    } */
 
     /* (Sec 1.2) Description of Myself */
-.description {
+    .description {
     font-weight: 100;
     font-size: 1.7rem;
     margin: 1em 0 3em 1.5em;
     max-width: 60%;
-}
-/* (Sec 1.21) Flex Container Descriptions */
-.description-container {
+    }
+    /* (Sec 1.21) Flex Container Descriptions */
+    .description-container {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-}
+    }
 
-/* Description Thought Process of Website */
+    /* Description Thought Process of Website */
 
     /* (Sec 1.3) Title of Thought Process */
-.title-thought {
+    .title-thought {
     font-size: 1.5rem;
     text-decoration: underline;
     margin: 1em;
     margin-left: 1.5em;
-    
-}
+    }
 
     /* (Sec 1.4) Thought Process Dialogue */
-.thought{
+    .thought{
     font-size: 1.3rem;
     margin: 1em;
     margin-left: 1.5em;
     max-width: 40%;
-}
+    }
     /* *Sec 1.5) Thought Process List */
-.thought-list{
+    .thought-list{
     text-align: left;
     font-size: 1.3rem;
     margin: 1em;
     margin-left: 1.5em;
-    
-}
+    }
 
     /* (Sec 3) Flexbox Container Projects*/
-      
-      .project__container {
-        display: flex;
-        justify-content: center;
-        color: #fff;
-        flex-wrap: wrap;
-        padding: 1em;
-        max-width: 20em;
-        margin-left: 13em;
-        box-shadow: .3rem .3rem 0.3rem .5rem rgb(7, 80, 5);
-      }
-      
-      .pj {
-        box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
-        margin: 1em 0 3em 1.5em;
-        padding: .5em;
-        font-size: 2rem;
-      }
-      
+
+    .project__container {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    flex-wrap: wrap;
+    padding: 1em;
+    max-width: 20em;
+    margin-left: 13em;
+    box-shadow: .3rem .3rem 0.3rem .5rem rgb(7, 80, 5);
+    }
+
+    .pj {
+    box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
+    margin: 1em 0 3em 1.5em;
+    padding: .5em;
+    font-size: 2rem;
+    }
+
 
 
     /* (Sec 4) Footer Information */
     .footer-info {
-        font-family:  sans-serif, Georgia, serif;
-        color:aliceblue;
-        text-shadow: .1rem .1rem 1rem rgb(7, 80, 5);
-        font-size: 3rem;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color:#ffffff;
-        margin-top: 1em;
-        position: relative;
-        text-align: center;
-        z-index:3;
+    font-family:  sans-serif, Georgia, serif;
+    color:aliceblue;
+    text-shadow: .1rem .1rem 1rem rgb(7, 80, 5);
+    font-size: 3rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:#ffffff;
+    margin-top: 1em;
+    position: relative;
+    text-align: center;
+    z-index:3;
     }
