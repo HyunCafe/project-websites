@@ -36,6 +36,7 @@
     .site-header{
     display:flex;
     flex-wrap: wrap;
+    justify-content: center;
     }
 
     .site-title {
@@ -51,28 +52,7 @@
     -webkit-text-fill-color:#ffffff;
     }
 
-    .gifs img{
-    z-index: 1;
-    position: absolute;
-    }
-        /* (Sec 1.11) Image Behind Main Text  */     /* (Sec 1.1) Title of the Website */
-        .site-header{
-        display:flex;
-        flex-wrap: wrap;
-        }
-
-        .site-title {
-        padding: .5em;
-        margin: 1.7em;
-        font-size: 3rem;
-        text-shadow:none;
-        letter-spacing: .05rem;
-        box-shadow: .3rem .3rem 0.3rem .2rem #84AD25;
-        max-width: fit-content;
-        z-index: 2;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color:#ffffff;
-        }
+        /* (Sec 1.11) Image Behind Main Text  */ 
 
         .gifs img{
         z-index: 1;
