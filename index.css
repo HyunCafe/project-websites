@@ -1,28 +1,25 @@
-/* The whole website testtest*/
-
-.everything {
-    display:flex;
-    flex-wrap: wrap;
-    flex:auto;
-    justify-content: flex-start;
-    flex-direction: column;
-}
-
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    z-index: 2;
 }
 
 /* Howls Castle Background Image and Background Color of Website and Font Style */
 
     /* Overall Body of Website */
 .body {
+    display:flex;
+    flex-wrap: wrap;
+    flex:auto;
+    justify-content: flex-start;
+    flex-direction: column;
     font-family:  sans-serif, Georgia, serif;
     color:aliceblue;
     text-shadow: .1rem .1rem 1rem rgb(7, 80, 5);
     font-size: 3rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color:#ffffff;
-    
 }
 
    /* (Sec 1) Background Image */
@@ -37,9 +34,10 @@
 
     /* (Sec 1.1) Title of the Website */
 .site-header{
-    display: flex;
-    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
 }
+
 .site-title {
     padding: .5em;
     margin: 1.7em;
@@ -49,7 +47,10 @@
     box-shadow: .3rem .3rem 0.3rem .2rem #84AD25;
     max-width: fit-content;
     z-index: 2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:#ffffff;
 }
+
                 .gifs img{
                     z-index: 1;
                     position: absolute;
@@ -163,37 +164,35 @@
 }
 
     /* (Sec 3) Flexbox Container Projects*/
-    * {
-    margin: 0;
-    padding: 0;
-    z-index: 2;
-    }
-    
-    .project-container {
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    }
-    
-    .projectmenu {
-    width: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    box-shadow: .3rem .3rem 0.3rem .5rem rgb(7, 80, 5);
-    }
-
-    .pj {
-    box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
-    margin: 1em 0 3em 1.5em;
-    padding:1em;
-    font-size: 2rem;
-    }
-
+      
+      .project__container {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        flex-wrap: wrap;
+        padding: 1em;
+        max-width: 20em;
+        margin-left: 13em;
+        box-shadow: .3rem .3rem 0.3rem .5rem rgb(7, 80, 5);
+      }
+      
+      .pj {
+        box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
+        margin: 1em 0 3em 1.5em;
+        padding: .5em;
+        font-size: 2rem;
+      }
+      
 
 
     /* (Sec 4) Footer Information */
     .footer-info {
+        font-family:  sans-serif, Georgia, serif;
+        color:aliceblue;
+        text-shadow: .1rem .1rem 1rem rgb(7, 80, 5);
+        font-size: 3rem;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color:#ffffff;
         margin-top: 1em;
         position: relative;
         text-align: center;
