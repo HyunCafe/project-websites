@@ -6,6 +6,16 @@
     z-index: 2;
     }
 
+
+
+    
+
+    /* NEED TO WORK ON RESPONSIVE DESIGN !!! */
+
+
+
+
+
     /* Howls Castle Background Image and Background Color of Website and Font Style */
 
     /* Overall Body of Website */
@@ -196,7 +206,7 @@
     .footer{
         display: flex;
         justify-content: center;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         margin: 2em;
     }
 
