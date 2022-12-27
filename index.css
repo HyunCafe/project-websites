@@ -5,6 +5,7 @@
     padding: 0;
     z-index: 2;
     }
+
     /* Howls Castle Background Image and Background Color of Website and Font Style */
 
     /* Overall Body of Website */
@@ -31,7 +32,6 @@
     z-index: 0;
     }
 
-
     /* (Sec 1.1) Title of the Website */
     .site-header{
     display:flex;
@@ -52,8 +52,6 @@
     -webkit-text-fill-color:#ffffff;
     }
 
-        /* (Sec 1.11) Image Behind Main Text  */ 
-
         .gifs img{
         z-index: 1;
         position: absolute;
@@ -73,7 +71,7 @@
 
         /* (Sec 1.13) Image Right of Description Main Text  */
         .gif-2 {
-        top: 16em;
+        top: 15.4em;
         left: 14em;
         }    
 
@@ -83,19 +81,17 @@
         left: 3em;
         }
 
-
     /* (Sec 1.12) Group of Section 1.2 to 1.5) */
-
     .main-section {
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 18em;
+    max-width: 19em;
     margin: 10em 0 7em 1.5em;
     z-index: 2;
     box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
-    padding:1em;
+    padding:1.4em 1em 1em 1em;
     -webkit-text-fill-color: rgb(7, 80, 5);
     }
 
@@ -117,7 +113,6 @@
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     letter-spacing: .2em;
-
     }
 
     @keyframes typewriter {
@@ -131,6 +126,7 @@
     margin: 1em 0 3em 1.5em;
     max-width: 60%;
     }
+
     /* (Sec 1.21) Flex Container Descriptions */
     .description-container {
     display: flex;
@@ -164,7 +160,6 @@
     }
 
     /* (Sec 3) Flexbox Container Projects*/
-
     .project__container {
     display: flex;
     justify-content: center;
@@ -182,8 +177,6 @@
     padding: .5em;
     font-size: 2rem;
     }
-
-
 
     /* (Sec 4) Footer Information */
     .footer-info {
