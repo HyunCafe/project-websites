@@ -11,35 +11,45 @@
 </head>
 
 <body>
-  <!-- (Sec 1.12) Group of Section 1.2 to 1.5) -->
+  <!-- (Sec 1) Group of Section 1.1 to 1.5) -->
   <div class="body">
 
-  <header class="site-header">
+  <header class="site-header" id="home">
     <!-- (Sec 1.1) Title of Website  -->
         <h1 class="site-title">Welcome to Hyun's Project Website</h1>
         </header>
 
-<!--(Sec 1) Image of Header Background-->
+        <!-- (Sec 1.11) Navigation Bar -->
+        <nav class="navbar__container">
+          <ul>
+            <li> <a href="#home"> Home </a> </li>
+            <li> <a href="#main"> About Me </a> </li>
+            <li> <a href="#projects"> Projects </a> </li>
+            <li> <a href="#footer"> Contacts </a> </li>
+          </ul>
+        </nav>
+
+<!--(Sec 1.12) Image of Header Background-->
     <div class="bg-stack">
       <img class="bg-1" src="images/HowlsMovingCastle4kBG" alt="Minimalist white background with green plant">
       <img class="bg-2" src="images/plantbg6.jpg" alt="Minimalist white background with green plant">
     </div>
 
-      <!-- (Sec 1.11) Image Behind Main Text -->
+      <!-- (Sec 1.13) Image Behind Main Text -->
       <div class="gifs">
       <img class="png-1" src="images/png/plantbackground.png" alt="potted plant">
 
-      <!-- (Sec 1.12) Flamey Gif -->
+      <!-- (Sec 1.14) Flamey Gif -->
       <img class="gif-1" src="images/gif/flamey.gif" alt="fire icon from studio ghilbi">
 
-      <!-- (Sec 1.13) Image Right of Description Main Text -->
+      <!-- (Sec 1.15) Image Right of Description Main Text -->
       <img class="gif-2" src="images/gif/potplant2.gif" alt="animated potted plant">
 
-      <!-- (Sec 1.14) Image Left of Projects-->
+      <!-- (Sec 1.16) Image Left of Projects-->
       <img class="gif-3" src="images/gif/potplant.gif" alt="Another animated potted plant">
       </div>
 
-      <main class="main-section">
+      <main class="main-section" id="main">
         <!-- (Sec 1.2) Description of Myself-->
         <div class="description">
           <h2>Welcome, I'm Hyun, teaching myself coding and loving it!</h2>  <br>
@@ -78,7 +88,7 @@
       </main>
 
      <!-- (Sec 3) Flex Container Projects -->
-    <div class="project__container"> 
+    <div class="project__container" id="projects"> 
         <span class="pj">Project 1 Weather app</span>
         <span class="pj">Project 2 Maybe Tic Tac Toe</span>
         <span class="pj">Project 3 Simple Gacha type thing</span>
@@ -87,8 +97,8 @@
     </div>
   
      <!-- (Sec 4) Footer Information -->
-    <footer>
-      <p class="footer-info"> Some Links or Stuff goes here </p>
+    <footer class="footer" id="footer">
+      <p class="footer-info"> Some Links or Stuff goes here and contanct info </p>
     </footer>
   </div>
 </body>

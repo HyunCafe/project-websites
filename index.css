@@ -43,52 +43,66 @@
     padding: .5em;
     margin: 1.7em;
     font-size: 3rem;
-    text-shadow:none;
     letter-spacing: .05rem;
     box-shadow: .3rem .3rem 0.3rem .2rem #84AD25;
     max-width: fit-content;
     z-index: 2;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color:#ffffff;
+    }
+
+    /* (Sec 1.11) Navigation Bar */
+    .navbar__container {
+        display: flex;
+        justify-content: center;
+        box-shadow: .3rem .3rem 0.3rem .2rem #84AD25;
+        max-height: 2em;
+        z-index: 2;
+        margin-top: 6.6em;
+    }
+
+    li {
+        flex: 1;
+        align-items:center;
+        display: inline-block;
+        margin: 0 1em 0 1em;        
     }
 
         .gifs img{
         z-index: 1;
         position: absolute;
         }
-        /* (Sec 1.11) Image Behind Main Text  */
+        /* (Sec 1.13) Image Behind Main Text  */
         .png-1 {
         top: 18.5em;
         right: 3em;
         width:30%;
         }
 
-        /* (Sec 1.12) Flamey Gif */
+        /* (Sec 1.14) Flamey Gif */
         .gif-1 {                     
         top: 1em;
         right: 3em;
         }
 
-        /* (Sec 1.13) Image Right of Description Main Text  */
+        /* (Sec 1.15) Image Right of Description Main Text  */
         .gif-2 {
         top: 15.4em;
         left: 14em;
         }    
 
-        /* (Sec 1.14) Image Left of Projects  */
+        /* (Sec 1.16) Image Left of Projects  */
         .gif-3 {
         top: 46em;
         left: 3em;
         }
 
-    /* (Sec 1.12) Group of Section 1.2 to 1.5) */
+    /* (Sec 1.2) Group of Section 1.2 to 1.5) */
     .main-section {
     display: flex;
     position: relative;
     flex-direction: column;
     justify-content: flex-start;
     max-width: 19em;
-    margin: 10em 0 7em 1.5em;
+    margin: 2.1em 0 7em 1.5em;
     z-index: 2;
     box-shadow: .3rem .3rem 1rem .5rem rgb(7, 80, 5);
     padding:1.4em 1em 1em 1em;
@@ -179,15 +193,17 @@
     }
 
     /* (Sec 4) Footer Information */
+    .footer{
+        display: flex;
+        justify-content: center;
+        border: 2px solid black;
+        margin: 2em;
+    }
+
     .footer-info {
-    font-family:  sans-serif, Georgia, serif;
-    color:aliceblue;
     text-shadow: .1rem .1rem 1rem rgb(7, 80, 5);
-    font-size: 3rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color:#ffffff;
     margin-top: 1em;
-    position: relative;
-    text-align: center;
     z-index:3;
     }
