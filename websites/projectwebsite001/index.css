@@ -85,7 +85,7 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color:#ffffff;
         border-radius: 1rem;
-        border-color: rgb(7, 80, 5);;
+        border-color:transparent;
         padding:.2em;
     
         }
