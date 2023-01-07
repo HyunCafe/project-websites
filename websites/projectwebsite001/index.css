@@ -1,3 +1,4 @@
+@media (max-width:500px)
     /* Global Settings */
     * {
         box-sizing: border-box;
@@ -6,16 +7,8 @@
         z-index: 2;
         }
     
-    
-    
-    
-    
         /* MIGHT STOP PROJECT HERE
-        NEED TO WORK ON RESPONSIVE DESIGN TOO MESSY BUILDING WHILE LEARNING!!! */
-    
-    
-    
-    
+        NEED TO WORK ON RESPONSIVE DESIGN TOO MESSY BUILDING WHILE LEARNING!! */
     
         /* Howls Castle Background Image and Background Color of Website and Font Style */
     
@@ -87,9 +80,7 @@
         border-radius: 1rem;
         border-color:transparent;
         padding:.2em;
-    
         }
-    
             .gifs img{
             z-index: 1;
             position: absolute;
